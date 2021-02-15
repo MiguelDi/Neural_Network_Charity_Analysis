@@ -8,7 +8,7 @@ Using knowledge of machine learning and neural networks create a binary classifi
   - Written Report on the Neural Network Model
 
 ### Resources
-- Data Source: [)
+- Data Source: [charity_data.csv](https://github.com/MiguelDi/Neural_Network_Charity_Analysis/blob/main/Resources/charity_data.csv)
 - Tools:
  - Python 3.6.1
  - Pandas
@@ -47,19 +47,19 @@ Using knowledge of machine learning and neural networks create a binary classifi
     - Intitial Model:
     The final number of features for the model was around 42.  For the intial evaluation I chose two hidden layers, the first hidden layer contained 40 neurons, the second hidden layer contained 5 neurons. "relu" was the activation used on this first model. 
       - Accuracy
-        ![Initital Model]()
+        ![Initital Model](Resources/Intitial_Model.png)
     - First Attempt:
     For this attempt, I kept the same number of hidden layers and neurons but changed the activation on the hidden layers to "tanh". 
       - Accuracy
-        ![1st attempt]()
+        ![1st attempt](Resources/1st_Attempt.png)
     - Second Attempt:
     For this attempt I increased the number of hidden layers and divided the original 45 neurons between the 3 hidden layers. Returned Activation to "relu" for the three hidden layers.
       - Accuracy
-        ![2nd Attempt]()
+        ![2nd Attempt](Resources/2nd_Attempt.png)
     - Third Attempt:
     For the third attempt I used the same three hidden layers and number of neurons I used in the second attempt.  I changed the activation for the three hidden features to "sigmoid" and increased the Epoch to 100.
       - Accuracy
-        ![3rd_Attempt]()
+        ![3rd_Attempt](Resources/3rd_Attempt.png)
     
   After three attempts the accuracy did improve but only in extremely small increments.
 
