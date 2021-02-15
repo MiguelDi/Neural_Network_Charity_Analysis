@@ -56,12 +56,9 @@ Using knowledge of machine learning and neural networks create a binary classifi
     For this attempt I increased the number of hidden layers and divided the original 45 neurons between the 3 hidden layers. Returned Activation to "relu" for the three hidden layers.
       - Accuracy
         ![2nd Attempt](Resources/2nd_Attempt.png)
-    - Third Attempt:
-    For the third attempt I used the same three hidden layers and number of neurons I used in the second attempt.  I changed the activation for the three hidden features to "sigmoid" and increased the Epoch to 100.
-      - Accuracy
-        ![3rd_Attempt](Resources/3rd_Attempt.png)
+   
     
-  After three attempts the accuracy did improve but only in extremely small increments.
+  After two attempts the accuracy did improve but only in extremely small increments.
 
 ## Summary
 Overall the results of my three attempts were not impressive. I believe that there maybe messy data however, because of many of the columns are coded, I am not aware of what the codes stand for and cannot be sure if they are lessoning the accuracy of the models.
